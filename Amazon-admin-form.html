@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="Amazon-admin-form.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <header class="text-center">
+      <h1 class="display-6 my-4 heading">Product Details</h1>
+    </header>
+
+  </div>
+
+  <section class="container my-4 w-50 p-2">
+
+    <div class="row g-3">
+
+      <div class="col-md-6">
+        <label for="product name" class="form-label ">Product Name</label>
+        <input type="text" class="form-control" id="product name" placeholder="" required />
+      </div>
+
+
+      <div class="col-md-6">
+        <label for="brand name" class="form-label">Brand Name</label>
+        <input type="text" class="form-control" id="brand name" placeholder="">
+      </div>
+
+
+      <div class="col-md-6 ">
+        <label for="category" class="form-label">Category</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>choose</option>
+          <option value="1">Mens</option>
+          <option value="2">Womens</option>
+          <option value="3">Kids</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label for="price" class="form-label ">Price</label>
+        <input type="number" class="form-control" id="price" min="0" placeholder="">
+      </div>
+
+      <div class="col-md-6">
+        <label for="material" class="form-label">Material</label>
+        <textarea class="form-control" id="material border" rows="6"></textarea>
+      </div>
+
+      <div class="col-12">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Quantity</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="col-12">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Colors Option</option>
+        <option value="1">Brown</option>
+        <option value="2">Red</option>
+        <option value="3">Pink</option>
+        <option value="4">Yellow</option>
+      </select>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="col-12">
+        <label for="desciption" class="form-label">Description</label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+      </div>
+
+      <input class="btn btn-secondary btn-outline-dark button" type="button" value="Submit">
+
+
+    </div>
+
+  </section>
+
+
+  <scrpt src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

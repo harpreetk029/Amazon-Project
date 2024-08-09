@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+   font-weight: bolder;
+}
+.button{
+    width: 100px;
+    margin-left: 15px;
+}
+
+section{
+    background-color: rgb(235, 232, 232);
+    border: 1px solid rgb(136, 135, 135);
+}
